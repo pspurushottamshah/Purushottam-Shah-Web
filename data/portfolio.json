@@ -2,116 +2,153 @@
     "globalMetrics": {
         "budgetManaged": 5500000,
         "currency": "GBP",
-        "projectCount": 16,
+        "projectCount": 20,
         "stakeholderCount": 500,
         "maxTeamSize": 38
     },
     "projects": [
         {
-            "id": "dynamics-crm-erp-transformation",
-            "title": "Dynamics CRM & ERP Business Transformation",
+            "id": "b2b-erp-case-management",
+            "title": "Multi-Stream ERP & B2B Case Management Transformation",
             "featured": true,
             "budget": 1000000,
             "currency": "GBP",
             "duration": "12 months",
-            "company": "Dogma Group",
+            "company": "B2B Service Provider (via Dogma Group)",
             "location": "Kathmandu, Nepal / UK Remote",
-            "description": "Led a major business transformation project involving Dynamics CRM and ERP implementation with a cross-functional team of 38 members.",
-            "teamSize": 38,
+            "description": "Led a high-stakes, multi-stream digital overhaul replacing fragmented legacy processes with a unified Microsoft Dynamics 365 and Power Platform ecosystem.",
+            "teamSize": 35,
             "teamBreakdown": {
-                "developers": 20,
-                "qualityAssurance": 10,
-                "consultants": 5,
-                "businessAnalysts": 3
+                "financePayroll": 8,
+                "b2bCaseMgmtAI": 10,
+                "salesMarketing": 6,
+                "docManagement": 6,
+                "hr": 5
             },
             "technologies": [
-                "Microsoft Dynamics CRM",
-                "Microsoft Dynamics ERP",
-                "Project Governance",
-                "Agile Methodologies"
+                "Microsoft Dynamics 365",
+                "Power Apps",
+                "Power Automate",
+                "Azure Hot/Cold Storage",
+                "Power BI",
+                "SharePoint"
             ],
             "roiMetrics": {
-                "teamEfficiency": "High-scale coordination",
-                "delivery": "On-time & Within Budget"
+                "efficiency": "Unified Ecosystem",
+                "automation": "High-volume processing"
             },
             "keyAchievements": [
-                "Delivered project with a budget of over £1 mil",
-                "Managed a cross-functional team of 38 members",
-                "Successfully bridged communication between Nepal and UK teams",
-                "Maintained scope integrity throughout one-year delivery"
+                "Orchestrated deep-dive discovery across 5 concurrent workstreams to define a unified MVP",
+                "Led Conference Room Pilots (CRP) for complex Fee Rate Matrix calculations and stakeholder mapping",
+                "Directed development of custom Power Apps for Cashflow management and PO/SO approvals",
+                "Managed the simultaneous development of 5 modules while maintaining BAU continuity"
             ]
         },
         {
-            "id": "ai-research-development",
-            "title": "AI Research & Development Portfolio",
+            "id": "netsuite-ecosystem-transformation",
+            "title": "Enterprise NetSuite Ecosystem Transformation",
             "featured": true,
-            "budget": 300000,
-            "currency": "GBP",
+            "budget": 700000,
+            "currency": "AUD",
             "duration": "4 months",
+            "company": "Enterprise Client",
+            "location": "Australia",
+            "description": "End-to-end transformation of backoffice operations by replacing a legacy system with a unified web and mobile ecosystem integrated with Oracle NetSuite.",
+            "teamSize": 14,
+            "technologies": [
+                "ReactJS",
+                "Flutter",
+                "Dart",
+                "Node.js",
+                "Microsoft Azure",
+                "Oracle NetSuite",
+                "Figma"
+            ],
+            "roiMetrics": {
+                "performance": "Modern Tech Stack",
+                "integration": "Seamless NetSuite Sync"
+            },
+            "keyAchievements": [
+                "Designed a system that successfully replaced legacy roadblocks through comprehensive discovery",
+                "Managed a 1-month iterative Figma design phase with weekly client feedback loops",
+                "Directed a 3-month build with ReactJS (Web) and Flutter (Mobile) with fortnightly UAT",
+                "Maintained strict budget integrity and change management throughout the 4-month lifecycle"
+            ]
+        },
+        {
+            "id": "financial-ecosystem-transformation",
+            "title": "Unified Financial & Customer Ecosystem Transformation",
+            "featured": false,
+            "budget": 850000,
+            "currency": "GBP",
+            "duration": "12 months",
+            "company": "UK Financial Services Organization",
+            "location": "UK / Remote",
+            "description": "High-impact digital transformation facilitating a 50x increase in customer volume by replacing manual Excel/Email processes.",
+            "teamSize": 25,
+            "technologies": [
+                "Microsoft Dynamics 365",
+                "Custom Customer Portal",
+                "Power BI",
+                "Azure SQL",
+                "ISO 27001 Standards"
+            ],
+            "roiMetrics": {
+                "scalability": "50x Volume Increase",
+                "compliance": "ISO 27001 Aligned"
+            },
+            "keyAchievements": [
+                "Identified a 'best-in-class' solution to future-proof the organization for 2,000+ participants",
+                "Managed phased implementation of Finance and CRM to eliminate data silos",
+                "Directed configuration of a customer-facing portal for self-service onboarding and reclaims",
+                "Decentralized risk identification through a specialized Risk Management tool with automated SLAs"
+            ]
+        },
+        {
+            "id": "hda-intelligence-framework",
+            "title": "HDA Intelligence™ Framework (AI R&D)",
+            "featured": true,
+            "budget": 0,
+            "currency": "GBP",
+            "duration": "3 months",
             "company": "Frost Digital Ventures",
-            "location": "Nepal",
-            "description": "Oversaw AI-focused research and development projects, incorporating innovative technologies to meet technical requirements and drive organizational growth.",
+            "location": "Global / Remote",
+            "description": "Strategic ideation and foundational prototyping for the Human + Digital + Artificial Intelligence™ Framework.",
             "teamSize": 15,
             "technologies": [
-                "AI/ML Industry Trends",
-                "Web & Mobile App Development",
-                "User Acceptance Testing (UAT)",
-                "Agile & Waterfall"
+                "AI/ML Trends",
+                "Agile Ideation",
+                "Figma Prototyping",
+                "Cross-Border Governance"
             ],
             "roiMetrics": {
-                "vendorPerformance": "Optimized",
-                "deliveryTime": "On-schedule"
+                "innovation": "Framework Prototyping",
+                "collaboration": "Global Team Alignment"
             },
             "keyAchievements": [
-                "Managed entire lifecycle of website and mobile projects",
-                "Incorporated AI trends into organizational R&D",
-                "Negotiated and managed external vendor contracts",
-                "Guided teams of over 15 members across various disciplines"
-            ]
-        },
-        {
-            "id": "solar-pv-design",
-            "title": "Solar PV & Security Infrastructure",
-            "featured": false,
-            "budget": 50000,
-            "currency": "USD",
-            "duration": "12 months",
-            "company": "Thee GO",
-            "location": "Nepal",
-            "description": "Prime responsibility for designing Solar PV module systems for residential and industrial sectors and managing security surveillance systems.",
-            "teamSize": 5,
-            "technologies": [
-                "Solar PV Design",
-                "CCTV Systems",
-                "Biometric Attendance Systems",
-                "Electrical System Design"
-            ],
-            "roiMetrics": {
-                "operationalEfficiency": "Increased security and power reliability"
-            },
-            "keyAchievements": [
-                "Designed solar systems for residential and industrial clients",
-                "Managed implementation of Biometric Attendance Systems",
-                "Oversaw security and surveillance device deployment"
+                "Led intensive workshops across teams in US, Nepal, Dubai, Malaysia, and India",
+                "Transitioned HDA concept from high-level theory to structured technical requirements",
+                "Managed development of initial prototypes to validate framework components",
+                "Streamlined communication for a global 15+ member team in a condensed R&D cycle"
             ]
         }
     ],
     "careerTimeline": [
         {
-            "id": "technical-pm-intuji",
-            "year": "2025-Present",
+            "id": "intuji-pm",
+            "year": "2025 - Present",
             "phase": "Project Leadership",
             "role": "Technical Project Manager",
             "companies": [
                 "Intuji"
             ],
-            "location": "Australia",
+            "location": "Western Australia (Hybrid)",
             "category": "leadership",
-            "description": "Overseeing end-to-end execution of technical projects with a focus on system architecture and process optimization.",
+            "description": "Leading end-to-end execution of technical projects with a focus on system architecture, resource optimization, and stakeholder management.",
             "keyAchievements": [
-                "Managing detailed project schedules and resource allocation",
-                "Leading ceremonies (stand-ups, sprint planning, retrospectives)",
-                "Mitigating project risks to safeguard timelines",
+                "Managing detailed project schedules and budget while adjusting for scope changes",
+                "Serving as primary liaison between cross-functional Engineering/QA teams and non-technical stakeholders",
+                "Leveraging deep tech-stack understanding to facilitate technically sound decisions",
                 "Championing EOS/GBS principles for workflow optimization"
             ],
             "skills": [
@@ -122,52 +159,51 @@
             ]
         },
         {
-            "id": "project-management-dogma",
-            "year": "2020-2023",
+            "id": "frost-digital-pm",
+            "year": "2023",
+            "phase": "AI & Digital PMO",
+            "role": "Project Manager - PMO",
+            "companies": [
+                "Frost Digital Ventures"
+            ],
+            "location": "Nepal",
+            "category": "leadership",
+            "description": "Managed full lifecycle of website and mobile projects and oversaw AI-focused R&D initiatives.",
+            "keyAchievements": [
+                "Led cross-functional teams of 15+ members across various disciplines",
+                "Aligned AI R&D projects with industry trends and organizational growth",
+                "Managed external vendor relationships and contract negotiations",
+                "Maintained strict financial oversight and budget tracking"
+            ],
+            "skills": [
+                "AI R&D Management",
+                "Vendor Management",
+                "Financial Oversight",
+                "Cross-functional Leadership"
+            ]
+        },
+        {
+            "id": "dogma-pm",
+            "year": "2020 - 2023",
             "phase": "Enterprise PM",
             "role": "Project Manager",
             "companies": [
                 "Dogma Group"
             ],
-            "location": "Kathmandu, Nepal",
+            "location": "Nepal / UK (Remote)",
             "category": "leadership",
-            "description": "Managed over 15 business transformation projects with cross-functional teams and international stakeholders.",
+            "description": "Delivered over 15 business transformation projects with a focus on Microsoft Dynamics 365 and global collaboration.",
             "keyAchievements": [
-                "Delivered £1M+ flagship CRM/ERP project",
-                "Averaged £300,000 budget across 15+ projects",
-                "Spearheaded RAID log management and financial transparency",
-                "Guided Associate Project Managers to streamline delivery"
+                "Delivered £1M+ flagship CRM/ERP transformation within one year",
+                "Managed a portfolio of 15+ projects with £300K average budgets",
+                "Spearheaded RAID log management for multi-project portfolios",
+                "Ensured seamless collaboration between UK-based stakeholders and Nepal teams"
             ],
             "skills": [
+                "Dynamics 365 Implementation",
+                "Portfolio Management",
                 "RAID Log Management",
-                "Budgeting",
-                "Stakeholder Engagement",
-                "Global Collaboration"
-            ]
-        },
-        {
-            "id": "engineering-roots",
-            "year": "2016-2019",
-            "phase": "Engineering Foundations",
-            "role": "Maintenance & Production Engineer",
-            "companies": [
-                "Shree Airlines",
-                "Varun Beverages"
-            ],
-            "location": "Nepal",
-            "category": "engineering",
-            "description": "Applied core engineering principles to optimize production lines and aircraft maintenance scheduling.",
-            "keyAchievements": [
-                "Reduced aircraft downtime through strategic maintenance planning",
-                "Increased line efficiency for beverage production utilities",
-                "Maintained complex electrical and refrigeration systems",
-                "Managed regulatory compliance for aviation standards"
-            ],
-            "skills": [
-                "Maintenance Planning",
-                "Utilities Monitoring",
-                "Regulatory Compliance",
-                "Electrical Engineering"
+                "Remote Team Leadership"
             ]
         }
     ],
@@ -176,20 +212,20 @@
             "category": "Project Management",
             "items": [
                 {
-                    "name": "Agile/Scrum",
-                    "proficiency": 95
-                },
-                {
-                    "name": "Waterfall",
-                    "proficiency": 90
+                    "name": "Technical Project Delivery",
+                    "proficiency": 98
                 },
                 {
                     "name": "RAID Management",
-                    "proficiency": 92
+                    "proficiency": 95
                 },
                 {
-                    "name": "EOS/GBS Principles",
-                    "proficiency": 85
+                    "name": "Agile / Scrum",
+                    "proficiency": 96
+                },
+                {
+                    "name": "PMO Setup",
+                    "proficiency": 90
                 },
                 {
                     "name": "ClickUp",
@@ -201,20 +237,24 @@
             "category": "Technical",
             "items": [
                 {
-                    "name": "Dynamics CRM & ERP",
+                    "name": "Dynamics 365 CRM/ERP",
+                    "proficiency": 92
+                },
+                {
+                    "name": "Power Platform",
                     "proficiency": 90
+                },
+                {
+                    "name": "NetSuite / SuiteCommerce",
+                    "proficiency": 88
                 },
                 {
                     "name": "System Architecture",
                     "proficiency": 85
                 },
                 {
-                    "name": "Mobile & Web Applications",
-                    "proficiency": 88
-                },
-                {
-                    "name": "Electrical System Design",
-                    "proficiency": 90
+                    "name": "Flutter / ReactJS",
+                    "proficiency": 80
                 }
             ]
         },
@@ -240,20 +280,40 @@
             ]
         }
     ],
+    "recommendations": [
+        {
+            "name": "Aruna KC",
+            "role": "HR Professional | People Operations",
+            "text": "Purushottam is knowledgeable, focused, reliable, skilled and a delightful person to have around. He consistently demonstrated exceptional leadership skills, effectively managing cross functional teams to deliver successful projects within time and budget."
+        },
+        {
+            "name": "Sahas Pokhrel",
+            "role": "Project Manager | PSM I",
+            "text": "Your supportive and collaborative approach helped to create a positive team dynamic... Your feedback and guidance have been instrumental in helping me achieve my goals and grow in my career."
+        },
+        {
+            "name": "Mehmet Nuri Can",
+            "role": "Dynamics 365 & Power Platform Consultant",
+            "text": "He was one of the skilled project managers for my team... He demonstrated a strong ability to work well under pressure and handle difficult projects."
+        }
+    ],
     "certifications": [
         {
             "name": "Registered Electrical and Electronics Engineer",
             "issuer": "Regulatory Body",
+            "date": "2019",
             "featured": true
         },
         {
             "name": "AMCAT English Comprehension & Telesales Professional",
             "issuer": "AMCAT",
+            "date": "2016",
             "featured": false
         },
         {
             "name": "Best Outgoing International Student",
             "issuer": "Kaplan Business School / Australian Institution",
+            "date": "2023",
             "award": true,
             "featured": true
         }
@@ -262,10 +322,11 @@
         "name": "Purushottam Shah",
         "title": "Technical Project Manager",
         "tagline": "Digital Technology and Transformation Enthusiast",
-        "subtitle": "MBA | MPM | Delivering Complex Business Solutions",
-        "bio": "An experienced Project Manager with over 5 years of history in engineering and IT. Specializing in business transformation (CRM/ERP), I lead cross-functional teams to deliver high-budget projects while optimizing governance and reducing downtime.",
+        "subtitle": "MBA | MPM | Delivering £5.5M+ Business Transformations",
+        "bio": "An accomplished Technical Project Manager with over 9 years of professional experience across IT, services, and engineering. Specializing in high-stakes business transformations (CRM, ERP, Custom Apps) using Agile and Waterfall methodologies. Expert in RAID management, financial oversight, and bridging the gap between technical development and non-technical stakeholders.",
         "location": "Dianella, Western Australia",
         "email": "pspurushottamshah@gmail.com",
-        "linkedin": "www.linkedin.com/in/purushottam-shah-73b06581"
+        "linkedin": "https://linkedin.com/in/purushottam-shah-73b06581",
+        "calendly": "https://calendly.com/purushottamshah"
     }
 }
