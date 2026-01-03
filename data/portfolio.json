@@ -1,8 +1,8 @@
 {
     "globalMetrics": {
-        "budgetManaged": 5000000,
+        "budgetManaged": 5500000,
         "currency": "GBP",
-        "projectCount": 15,
+        "projectCount": 20,
         "stakeholderCount": 500,
         "maxTeamSize": 38
     },
@@ -330,14 +330,6 @@
                 {
                     "name": "NetSuite / SuiteCommerce",
                     "proficiency": 88
-                },
-                {
-                    "name": "System Architecture",
-                    "proficiency": 85
-                },
-                {
-                    "name": "Flutter / ReactJS",
-                    "proficiency": 80
                 }
             ]
         },
@@ -355,10 +347,6 @@
                 {
                     "name": "Hindi",
                     "proficiency": 70
-                },
-                {
-                    "name": "Tamil",
-                    "proficiency": 40
                 }
             ]
         }
@@ -407,31 +395,6 @@
     ],
     "certifications": [
         {
-            "name": "MBA - Project Management",
-            "issuer": "Kaplan Business School",
-            "date": "2025",
-            "award": false,
-            "featured": true
-        },
-        {
-            "name": "Graduate Certificate in Project Management",
-            "issuer": "Western Sydney University",
-            "date": "2024",
-            "featured": true
-        },
-        {
-            "name": "MBA - General",
-            "issuer": "Ace Institute of Management",
-            "date": "2021",
-            "featured": false
-        },
-        {
-            "name": "Bachelor's Degree, Electrical and Electronics Engineering",
-            "issuer": "Sona College of Technology",
-            "date": "2016",
-            "featured": false
-        },
-        {
             "name": "Learning Microsoft Dynamics 365: The Basics",
             "issuer": "LinkedIn",
             "date": "2023",
@@ -450,10 +413,58 @@
             "featured": false
         },
         {
+            "name": "Communication in Difficult Situation",
+            "issuer": "Professional Training",
+            "date": "2020",
+            "featured": false
+        },
+        {
+            "name": "Positioning the 'I' in Leadership",
+            "issuer": "Leadership Workshop",
+            "date": "2020",
+            "featured": false
+        },
+        {
+            "name": "Aircraft Familiarization, Basic NCAR, CAME, MOE",
+            "issuer": "Shree Airlines",
+            "date": "2018",
+            "featured": false
+        },
+        {
             "name": "Registered Electrical and Electronics Engineer",
             "issuer": "Nepal Engineering Council",
             "date": "2016",
             "featured": true
+        },
+        {
+            "name": "AMCAT Certified in English Comprehension",
+            "issuer": "Aspiring Minds",
+            "date": "2014",
+            "featured": false
+        },
+        {
+            "name": "AMCAT Certified Business Analyst",
+            "issuer": "Aspiring Minds",
+            "date": "2014",
+            "featured": false
+        },
+        {
+            "name": "AMCAT Certified Collections Specialist",
+            "issuer": "Aspiring Minds",
+            "date": "2014",
+            "featured": false
+        },
+        {
+            "name": "AMCAT Certified Data Processing Specialist",
+            "issuer": "Aspiring Minds",
+            "date": "2014",
+            "featured": false
+        },
+        {
+            "name": "AMCAT Certified Telesales Professional",
+            "issuer": "Aspiring Minds",
+            "date": "2014",
+            "featured": false
         }
     ],
     "personalInfo": {
