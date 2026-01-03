@@ -1,0 +1,354 @@
+{
+    "globalMetrics": {
+        "budgetManaged": 5000000,
+        "currency": "GBP",
+        "projectCount": 15,
+        "stakeholderCount": 500,
+        "maxTeamSize": 38
+    },
+    "projects": [
+        {
+            "id": "dynamics-crm-erp",
+            "title": "Dynamics CRM & ERP Business Transformation",
+            "featured": true,
+            "budget": 1000000,
+            "currency": "GBP",
+            "duration": "18 months",
+            "company": "Enterprise Client (Confidential)",
+            "location": "Australia",
+            "description": "Led a comprehensive business transformation project implementing Microsoft Dynamics CRM and ERP systems across a multi-national enterprise. Managed cross-functional teams and coordinated with global stakeholders to deliver on time and within budget.",
+            "teamSize": 38,
+            "teamBreakdown": {
+                "developers": 20,
+                "qualityAssurance": 10,
+                "consultants": 5,
+                "businessAnalysts": 3
+            },
+            "technologies": [
+                "Microsoft Dynamics CRM",
+                "Microsoft Dynamics ERP",
+                "Power BI",
+                "Azure",
+                "SQL Server",
+                "Power Automate"
+            ],
+            "roiMetrics": {
+                "lineEfficiency": "+35%",
+                "downtime": "-42%",
+                "userAdoption": "98%",
+                "timeToMarket": "-6 months"
+            },
+            "keyAchievements": [
+                "Delivered £1M+ project on time and within budget",
+                "Coordinated 38-member cross-functional team",
+                "Improved operational efficiency by 35%",
+                "Reduced system downtime by 42%",
+                "Achieved 98% user adoption rate"
+            ]
+        },
+        {
+            "id": "axiata-business-excellence",
+            "title": "Telecom Business Excellence Initiative",
+            "featured": true,
+            "budget": 750000,
+            "currency": "GBP",
+            "duration": "12 months",
+            "company": "Axiata Group",
+            "location": "Malaysia / Regional",
+            "description": "Spearheaded business excellence programs across multiple telecom markets, implementing process optimization and operational efficiency improvements.",
+            "teamSize": 25,
+            "technologies": [
+                "Lean Six Sigma",
+                "Process Mining Tools",
+                "Business Intelligence",
+                "Analytics Platforms"
+            ],
+            "roiMetrics": {
+                "processEfficiency": "+28%",
+                "costReduction": "£420K annually",
+                "nps": "+15 points"
+            },
+            "keyAchievements": [
+                "Improved process efficiency by 28%",
+                "Achieved £420K in annual cost savings",
+                "Increased customer satisfaction (NPS +15)",
+                "Standardized processes across 5 markets"
+            ]
+        },
+        {
+            "id": "solar-utility-automation",
+            "title": "Solar Utility & Machinery Automation",
+            "featured": false,
+            "budget": 180000,
+            "currency": "GBP",
+            "duration": "8 months",
+            "company": "Thee GO",
+            "location": "Nepal",
+            "description": "Designed and implemented automation systems for solar utilities and industrial machinery, bridging electrical engineering expertise with modern automation.",
+            "teamSize": 12,
+            "technologies": [
+                "AutoCAD",
+                "SolidWorks",
+                "PLC Programming",
+                "SCADA Systems",
+                "Solar PV Design"
+            ],
+            "roiMetrics": {
+                "energyEfficiency": "+40%",
+                "maintenanceCosts": "-30%"
+            },
+            "keyAchievements": [
+                "Improved energy efficiency by 40%",
+                "Reduced maintenance costs by 30%",
+                "Designed 5+ solar utility installations",
+                "Automated machinery control systems"
+            ]
+        }
+    ],
+    "careerTimeline": [
+        {
+            "id": "electrical-engineering",
+            "year": "2010-2014",
+            "phase": "Engineering Roots",
+            "role": "Electrical Engineer",
+            "companies": [
+                "Jagadamba Steels",
+                "Thee GO"
+            ],
+            "location": "Kathmandu, Nepal",
+            "category": "engineering",
+            "description": "Built strong technical foundation in electrical systems, utility design, machinery automation, and solar power installations.",
+            "keyAchievements": [
+                "Designed electrical systems for industrial steel manufacturing",
+                "Implemented solar PV installations for utilities",
+                "Automated machinery control systems",
+                "Developed expertise in AutoCAD and SolidWorks"
+            ],
+            "skills": [
+                "Electrical Engineering",
+                "AutoCAD",
+                "SolidWorks",
+                "PLC Programming",
+                "Solar Energy Systems"
+            ]
+        },
+        {
+            "id": "telecom-excellence",
+            "year": "2015-2018",
+            "phase": "Telecom Mastery",
+            "role": "Business Excellence Manager",
+            "companies": [
+                "Axiata Group"
+            ],
+            "location": "Malaysia / Regional",
+            "category": "business",
+            "description": "Transitioned to business excellence and process optimization in the telecom sector, managing regional initiatives across multiple markets.",
+            "keyAchievements": [
+                "Led business excellence programs across 5 telecom markets",
+                "Improved operational efficiency by 28%",
+                "Managed stakeholder engagement with 200+ regional partners",
+                "Implemented Lean Six Sigma methodologies"
+            ],
+            "skills": [
+                "Business Excellence",
+                "Lean Six Sigma",
+                "Process Optimization",
+                "Stakeholder Management",
+                "Regional Project Management"
+            ]
+        },
+        {
+            "id": "technical-pm",
+            "year": "2019-2025",
+            "phase": "Technical PM Era",
+            "role": "Senior Technical Project Manager",
+            "companies": [
+                "Enterprise Clients (Australia)"
+            ],
+            "location": "Australia",
+            "category": "leadership",
+            "description": "Delivering high-stakes business transformations with £1M+ budgets, leading large cross-functional teams, and driving enterprise-wide technology implementations.",
+            "keyAchievements": [
+                "Delivered £5M+ in total project budgets",
+                "Led 15+ enterprise transformation projects",
+                "Managed teams up to 38 cross-functional experts",
+                "Coordinated with 500+ global stakeholders",
+                "Achieved 98% user adoption on flagship £1M+ CRM/ERP project"
+            ],
+            "skills": [
+                "Enterprise Project Management",
+                "Business Transformation",
+                "Microsoft Dynamics CRM/ERP",
+                "Agile/Scrum Methodologies",
+                "Team Leadership",
+                "Budget Management",
+                "Stakeholder Engagement"
+            ]
+        },
+        {
+            "id": "academic-excellence",
+            "year": "Ongoing",
+            "phase": "Academic Excellence",
+            "role": "MBA & MPM Graduate",
+            "companies": [
+                "University (Australia)"
+            ],
+            "location": "Australia",
+            "category": "education",
+            "description": "Achieved academic excellence with MBA and Master of Project Management degrees, earning the prestigious 'Best Outgoing International Student' award.",
+            "keyAchievements": [
+                "MBA (Master of Business Administration)",
+                "MPM (Master of Project Management)",
+                "Best Outgoing International Student Award",
+                "Certified Scrum Master (CSM)",
+                "PMP Preparation (In Progress)"
+            ],
+            "skills": [
+                "Strategic Management",
+                "Financial Analysis",
+                "Organizational Leadership",
+                "Project Portfolio Management",
+                "Risk Management"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Project Management",
+            "items": [
+                {
+                    "name": "Scrum/Agile",
+                    "proficiency": 95
+                },
+                {
+                    "name": "Waterfall",
+                    "proficiency": 90
+                },
+                {
+                    "name": "Risk Management",
+                    "proficiency": 92
+                },
+                {
+                    "name": "Budget Management",
+                    "proficiency": 94
+                },
+                {
+                    "name": "Stakeholder Engagement",
+                    "proficiency": 96
+                }
+            ]
+        },
+        {
+            "category": "Business Tools",
+            "items": [
+                {
+                    "name": "Microsoft Dynamics CRM",
+                    "proficiency": 90
+                },
+                {
+                    "name": "Microsoft Dynamics ERP",
+                    "proficiency": 88
+                },
+                {
+                    "name": "Power BI",
+                    "proficiency": 85
+                },
+                {
+                    "name": "Azure",
+                    "proficiency": 80
+                },
+                {
+                    "name": "JIRA",
+                    "proficiency": 92
+                }
+            ]
+        },
+        {
+            "category": "Engineering",
+            "items": [
+                {
+                    "name": "AutoCAD",
+                    "proficiency": 88
+                },
+                {
+                    "name": "SolidWorks",
+                    "proficiency": 85
+                },
+                {
+                    "name": "Electrical Systems Design",
+                    "proficiency": 90
+                },
+                {
+                    "name": "Solar PV Design",
+                    "proficiency": 82
+                }
+            ]
+        },
+        {
+            "category": "Leadership",
+            "items": [
+                {
+                    "name": "Team Leadership",
+                    "proficiency": 95
+                },
+                {
+                    "name": "Cross-functional Coordination",
+                    "proficiency": 94
+                },
+                {
+                    "name": "Executive Communication",
+                    "proficiency": 93
+                },
+                {
+                    "name": "Change Management",
+                    "proficiency": 91
+                }
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Certified Scrum Master (CSM)",
+            "issuer": "Scrum Alliance",
+            "date": "2022",
+            "verificationUrl": "https://example.com/verify",
+            "featured": true
+        },
+        {
+            "name": "Master of Business Administration (MBA)",
+            "issuer": "Australian University",
+            "date": "2023",
+            "featured": true
+        },
+        {
+            "name": "Master of Project Management (MPM)",
+            "issuer": "Australian University",
+            "date": "2023",
+            "featured": true
+        },
+        {
+            "name": "Best Outgoing International Student",
+            "issuer": "Australian University",
+            "date": "2023",
+            "award": true,
+            "featured": true
+        },
+        {
+            "name": "Lean Six Sigma Green Belt",
+            "issuer": "ASQ",
+            "date": "2019",
+            "featured": false
+        }
+    ],
+    "personalInfo": {
+        "name": "Purushottam Shah",
+        "title": "Senior Technical Project Manager",
+        "tagline": "The Architect of Transformation",
+        "subtitle": "MBA & MPM | Delivering £5M+ Business Transformations",
+        "bio": "A results-driven Technical Project Manager with a unique blend of electrical engineering expertise and business transformation leadership. With an MBA and Master of Project Management, I've successfully delivered £5M+ in enterprise projects across Australia, Asia, and Nepal, managing teams up to 38 cross-functional experts and coordinating with 500+ global stakeholders.",
+        "location": "Australia",
+        "email": "contact@purushottamshah.com",
+        "linkedin": "https://linkedin.com/in/purushottamshah",
+        "calendly": "https://calendly.com/purushottamshah"
+    }
+}
