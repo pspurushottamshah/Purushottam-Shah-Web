@@ -54,6 +54,12 @@ export interface Certification {
     award?: boolean;
 }
 
+export interface Recommendation {
+    name: string;
+    role: string;
+    text: string;
+}
+
 export interface PersonalInfo {
     name: string;
     title: string;
@@ -79,6 +85,7 @@ export interface PortfolioData {
     projects: Project[];
     careerTimeline: CareerMilestone[];
     skills: SkillCategory[];
+    recommendations: Recommendation[];
     certifications: Certification[];
     personalInfo: PersonalInfo;
 }

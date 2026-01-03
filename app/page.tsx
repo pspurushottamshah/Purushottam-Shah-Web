@@ -7,6 +7,7 @@ import ProjectGrid from '@/components/projects/ProjectGrid';
 import CareerTimeline from '@/components/timeline/CareerTimeline';
 import SkillsSection from '@/components/skills/SkillsSection';
 import CertificationsSection from '@/components/skills/CertificationsSection';
+import RecommendationsSection from '@/components/recommendations/RecommendationsSection';
 import ContactSection from '@/components/contact/ContactSection';
 
 export default function Home() {
