@@ -37,6 +37,9 @@ export default function Home() {
             {/* Certifications & Awards */}
             <CertificationsSection />
 
+            {/* Recommendation/Testimonials Section */}
+            <RecommendationsSection />
+
             {/* Contact Section */}
             <ContactSection />
 
