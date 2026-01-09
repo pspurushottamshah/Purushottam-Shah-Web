@@ -25,7 +25,7 @@ export default function HeroSection() {
                     </h1>
 
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-6">
-                        {personalInfo.name}
+                        Purushottam "Puru" Shah
                     </h2>
 
                     <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
