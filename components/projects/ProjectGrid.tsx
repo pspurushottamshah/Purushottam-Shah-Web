@@ -6,9 +6,6 @@ import type { Project } from '@/types/portfolio';
 
 export default function ProjectGrid() {
     const { projects } = portfolioData as unknown as { projects: Project[] };
-    const featuredProjects = projects.filter(p => p.featured);
-    const otherProjects = projects.filter(p => !p.featured);
-
     return (
         <section id="projects" className="section-container">
             <div className="text-center mb-16">
@@ -20,25 +17,16 @@ export default function ProjectGrid() {
                 </p>
             </div>
 
-            {/* Featured Projects (Bento Grid) */}
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
-                {featuredProjects.map((project, index) => (
-                    <ProjectCard key={project.id} project={project} index={index} />
+            {/* Unified Project Grid (Bento Layout) */}
+            <div className="grid md:grid-cols-4 gap-6">
+                {projects.map((project, index) => (
+                    <ProjectCard
+                        key={project.id}
+                        project={project}
+                        index={index}
+                    />
                 ))}
             </div>
-
-            {/* Other Projects */}
-            {otherProjects.length > 0 && (
-                <div className="grid md:grid-cols-3 gap-6">
-                    {otherProjects.map((project, index) => (
-                        <ProjectCard
-                            key={project.id}
-                            project={project}
-                            index={index + featuredProjects.length}
-                        />
-                    ))}
-                </div>
-            )}
         </section>
     );
 }
