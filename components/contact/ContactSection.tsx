@@ -69,15 +69,7 @@ export default function ContactSection() {
                                 </div>
                             </a>
 
-                            <div className="flex items-center gap-4 p-4 bg-charcoal-800 rounded-lg">
-                                <div className="w-12 h-12 rounded-full bg-electric/20 flex items-center justify-center">
-                                    <span className="text-2xl">📍</span>
-                                </div>
-                                <div>
-                                    <div className="text-sm text-gray-400">Location</div>
-                                    <div className="text-white font-medium">{personalInfo.location}</div>
-                                </div>
-                            </div>
+
                         </div>
 
                         {/* Calendly/Google Meet Link */}
