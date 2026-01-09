@@ -49,7 +49,7 @@ export default function CountUp({
                     requestAnimationFrame(animate);
                 }
             },
-            { threshold: 0.3 }
+            { threshold: 0.1 } // Reduced threshold to ensure it triggers
         );
 
         if (countRef.current) {
