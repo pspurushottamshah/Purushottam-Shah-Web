@@ -8,11 +8,12 @@ export default function GlobalImpactTicker() {
 
     const metrics = [
         {
-            value: globalMetrics.budgetManaged,
+            value: globalMetrics.budgetManaged / 1000000,
             prefix: '£',
             suffix: 'M+',
             label: 'Budget Managed',
             description: 'Total enterprise project value delivered',
+            decimals: 1,
         },
         {
             value: globalMetrics.projectCount,
@@ -46,6 +47,7 @@ export default function GlobalImpactTicker() {
                                 end={metric.value}
                                 prefix={metric.prefix || ''}
                                 suffix={metric.suffix || ''}
+                                decimals={metric.decimals}
                             />
                         </div>
                         <h3 className="text-lg font-semibold text-white mb-1">

@@ -8,6 +8,7 @@ interface CountUpProps {
     suffix?: string;
     prefix?: string;
     separator?: string;
+    decimals?: number;
 }
 
 export default function CountUp({
@@ -15,7 +16,8 @@ export default function CountUp({
     duration = 2000,
     suffix = '',
     prefix = '',
-    separator = ','
+    separator = ',',
+    decimals = 0
 }: CountUpProps) {
     const [count, setCount] = useState(0);
     const countRef = useRef<HTMLSpanElement>(null);
@@ -35,7 +37,7 @@ export default function CountUp({
 
                         // Easing function for smooth animation
                         const easeOutQuad = (t: number) => t * (2 - t);
-                        const currentCount = Math.floor(easeOutQuad(progress) * (end - startValue) + startValue);
+                        const currentCount = easeOutQuad(progress) * (end - startValue) + startValue;
 
                         setCount(currentCount);
 
@@ -49,7 +51,7 @@ export default function CountUp({
                     requestAnimationFrame(animate);
                 }
             },
-            { threshold: 0.1 } // Reduced threshold to ensure it triggers
+            { threshold: 0.1 }
         );
 
         if (countRef.current) {
@@ -60,7 +62,14 @@ export default function CountUp({
     }, [end, duration, hasAnimated]);
 
     const formatNumber = (num: number) => {
-        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
+        // Handle decimals
+        const fixed = num.toFixed(decimals);
+        const [integerPart, decimalPart] = fixed.split('.');
+
+        // Add separator to integer part
+        const formattedInteger = integerPart.replace(/\B(?=(\d{3})+(?!\d))/g, separator);
+
+        return decimalPart ? `${formattedInteger}.${decimalPart}` : formattedInteger;
     };
 
     return (
