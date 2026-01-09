@@ -1,9 +1,4 @@
-export interface TeamBreakdown {
-    developers: number;
-    qualityAssurance: number;
-    consultants: number;
-    businessAnalysts: number;
-}
+export type TeamBreakdown = Record<string, number>;
 
 export interface Project {
     id: string;
@@ -69,7 +64,7 @@ export interface PersonalInfo {
     location: string;
     email: string;
     linkedin: string;
-    calendly: string;
+    meetingUrl: string;
 }
 
 export interface GlobalMetrics {

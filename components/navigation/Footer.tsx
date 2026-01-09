@@ -58,7 +58,7 @@ export default function Footer() {
                                 Email
                             </a>
                             <a
-                                href={personalInfo.calendly}
+                                href={personalInfo.meetingUrl}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block text-gray-400 hover:text-electric transition-smooth text-sm"

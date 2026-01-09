@@ -398,72 +398,36 @@
             "name": "Learning Microsoft Dynamics 365: The Basics",
             "issuer": "LinkedIn",
             "date": "2023",
-            "featured": false
+            "featured": true
         },
         {
             "name": "Agile Software Development",
             "issuer": "Coursera",
             "date": "2021",
-            "featured": false
+            "featured": true
         },
         {
             "name": "Project Risk Management",
             "issuer": "Udemy",
             "date": "2021",
-            "featured": false
+            "featured": true
         },
         {
             "name": "Communication in Difficult Situation",
             "issuer": "Professional Training",
             "date": "2020",
-            "featured": false
+            "featured": true
         },
         {
             "name": "Positioning the 'I' in Leadership",
             "issuer": "Leadership Workshop",
             "date": "2020",
-            "featured": false
+            "featured": true
         },
         {
             "name": "Aircraft Familiarization, Basic NCAR, CAME, MOE",
             "issuer": "Shree Airlines",
             "date": "2018",
-            "featured": false
-        },
-        {
-            "name": "Registered Electrical and Electronics Engineer",
-            "issuer": "Nepal Engineering Council",
-            "date": "2016",
-            "featured": true
-        },
-        {
-            "name": "AMCAT Certified in English Comprehension",
-            "issuer": "Aspiring Minds",
-            "date": "2014",
-            "featured": false
-        },
-        {
-            "name": "AMCAT Certified Business Analyst",
-            "issuer": "Aspiring Minds",
-            "date": "2014",
-            "featured": false
-        },
-        {
-            "name": "AMCAT Certified Collections Specialist",
-            "issuer": "Aspiring Minds",
-            "date": "2014",
-            "featured": false
-        },
-        {
-            "name": "AMCAT Certified Data Processing Specialist",
-            "issuer": "Aspiring Minds",
-            "date": "2014",
-            "featured": false
-        },
-        {
-            "name": "AMCAT Certified Telesales Professional",
-            "issuer": "Aspiring Minds",
-            "date": "2014",
             "featured": false
         }
     ],
@@ -476,6 +440,6 @@
         "location": "Dianella, Western Australia",
         "email": "pspurushottamshah@gmail.com",
         "linkedin": "https://linkedin.com/in/purushottam-shah-73b06581",
-        "calendly": "https://calendly.com/purushottamshah"
+        "meetingUrl": "https://meet.google.com/landing"
     }
 }

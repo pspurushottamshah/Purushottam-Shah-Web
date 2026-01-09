@@ -57,23 +57,6 @@ export default function CertificationsSection() {
                 ))}
             </div>
 
-            {/* Special Highlight for Best Student Award */}
-            <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="mt-12 max-w-4xl mx-auto glass rounded-2xl p-8 text-center border-2 border-electric/30"
-            >
-                <div className="text-5xl mb-4">🌟</div>
-                <h3 className="text-3xl font-bold gradient-text mb-3">
-                    Best Outgoing International Student
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                    Recognized for outstanding academic performance, leadership qualities, and significant
-                    contributions to the university community during the MBA and MPM programs.
-                </p>
-            </motion.div>
         </section>
     );
 }

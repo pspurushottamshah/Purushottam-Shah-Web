@@ -3,19 +3,25 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import type { TeamBreakdown } from '@/types/portfolio';
 
-
-
 interface TeamBreakdownChartProps {
     teamBreakdown: TeamBreakdown;
 }
 
 export default function TeamBreakdownChart({ teamBreakdown }: TeamBreakdownChartProps) {
-    const data = [
-        { name: 'Developers', value: teamBreakdown.developers, color: '#007BFF' },
-        { name: 'Quality Assurance', value: teamBreakdown.qualityAssurance, color: '#00d4ff' },
-        { name: 'Consultants', value: teamBreakdown.consultants, color: '#0062cc' },
-        { name: 'Business Analysts', value: teamBreakdown.businessAnalysts, color: '#004a99' },
-    ];
+    // Generate data from dynamic keys
+    const data = Object.entries(teamBreakdown).map(([name, value], index) => {
+        // Formulate a display name from camelCase keys (e.g. "qualityAssurance" -> "Quality Assurance")
+        const formattedName = name.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());
+
+        // Define a color palette
+        const colors = ['#007BFF', '#00d4ff', '#0062cc', '#004a99', '#3399ff', '#66b3ff'];
+
+        return {
+            name: formattedName,
+            value,
+            color: colors[index % colors.length]
+        };
+    });
 
     return (
         <div className="w-full h-64">

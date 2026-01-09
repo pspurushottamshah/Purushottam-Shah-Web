@@ -80,14 +80,14 @@ export default function ContactSection() {
                             </div>
                         </div>
 
-                        {/* Calendly Link */}
+                        {/* Calendly/Google Meet Link */}
                         <a
-                            href={personalInfo.calendly}
+                            href={personalInfo.meetingUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block mt-6 w-full py-4 bg-electric hover:bg-electric-600 text-white font-semibold rounded-lg transition-smooth text-center hover-glow"
                         >
-                            📅 Schedule a Meeting
+                            📅 Schedule a Google Meet
                         </a>
                     </div>
                 </motion.div>
