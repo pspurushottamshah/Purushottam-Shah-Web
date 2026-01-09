@@ -3,8 +3,17 @@
 import { motion } from 'framer-motion';
 import portfolioData from '@/data/portfolio.json';
 
+interface Certification {
+    name: string;
+    issuer: string;
+    date: string;
+    featured: boolean;
+    award?: boolean;
+    verificationUrl?: string;
+}
+
 export default function CertificationsSection() {
-    const { certifications } = portfolioData;
+    const certifications = portfolioData.certifications as Certification[];
     const featuredCerts = certifications.filter(c => c.featured);
 
     return (
