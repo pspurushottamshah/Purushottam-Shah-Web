@@ -27,7 +27,7 @@ export default function CertificationsSection() {
                 </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
                 {featuredCerts.map((cert, index) => (
                     <motion.div
                         key={index}
