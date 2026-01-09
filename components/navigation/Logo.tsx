@@ -21,7 +21,7 @@ export default function Logo() {
 
             {/* Masked Text Effect */}
             <div className="text-2xl font-bold relative z-10">
-                <span className="bg-clip-text text-transparent bg-[url('/profile-ps.png')] bg-cover bg-center md:bg-fixed group-hover:bg-none group-hover:text-electric transition-all duration-300">
+                <span className="bg-clip-text text-transparent bg-[url('/profile-ps.png')] bg-cover bg-center group-hover:bg-none group-hover:text-electric transition-all duration-300">
                     PS
                 </span>
                 {/* Fallback for when background clip isn't supported or image not loaded properly */}

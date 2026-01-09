@@ -4,14 +4,12 @@
             "institution": "Kaplan Business School",
             "degree": "Masters of Business Administration - Project Management",
             "date": "Jul 2024 - Aug 2025",
-            "grade": "5.76",
             "location": "Australia"
         },
         {
             "institution": "Western Sydney University",
             "degree": "Graduate Certificate in Project Management, Engineering",
             "date": "Jul 2023 - Jun 2024",
-            "grade": "Credit",
             "location": "Australia"
         },
         {
@@ -24,7 +22,6 @@
             "institution": "Sona College of Technology",
             "degree": "Bachelor's Degree, Electrical and Electronics Engineering",
             "date": "2012 - 2016",
-            "grade": "A",
             "location": "India",
             "activities": "IEEE Student Chapter Secretary, EEE Branch Student Chairman"
         }
