@@ -24,6 +24,7 @@ export default function ProjectGrid() {
                         key={project.id}
                         project={project}
                         index={index}
+                        variant={project.featured ? 'featured' : 'compact'}
                     />
                 ))}
             </div>
